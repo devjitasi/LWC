@@ -1,0 +1,22 @@
+<aura:component>
+  <div class="white">
+    Hello, HTML!
+  </div>
+  
+  <h2>Check out the style in this list.</h2>
+  
+  <ul>
+    <li class="red">I'm red.</li>
+    <li class="blue">I'm blue.</li>
+    <li class="green">I'm green.</li>
+  </ul>
+    <aura:attribute name="num1" type="Integer" default="10"/>
+        <aura:attribute name="num2" type="Integer" default="30"/>
+            <aura:attribute name="sum" type="Integer"/>
+    
+    
+    {!v.num1}+{!v.num2} ={!v.sum}
+    <br/><br/>
+    <ui:button label="Press Me/Click Me" press="{!c.add}"/>
+
+</aura:component>
