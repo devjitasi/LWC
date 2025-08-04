@@ -2,6 +2,7 @@ public class AccountInsert {
 
     public static void insertAccount(){
         try{
+            //Adding a comment to indicate the start of the method
             addAccount();
         }   
         catch(AcctException e){
